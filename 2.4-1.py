@@ -20,7 +20,7 @@ class Student:
         return self.evaluations
 
 class DataBas:
-    def __init__(self, db_name="StudentsOfEmpire.db"):
+    def __init__(self, db_name="Students.db"):
         self.db_name = db_name
         self.connection = None
         self.cursor = None
