@@ -86,7 +86,7 @@ async def cancel(update: Update, context: CallbackContext) -> int:
     return ConversationHandler.END
 
 def main():
-    TOKEN = '7922164398:AAGPtGqaUsvwRIPb-_llPuog91tLUPCymOE'
+    TOKEN = ''
 
     application = Application.builder().token(TOKEN).build()
 
